@@ -30,14 +30,3 @@ User Registration: Before logging in, ensure that the user has been registered w
 Tips/Notes:
 Security: This code is for educational purposes only and lacks important security features such as password hashing and protection against SQL injection. In a real-world scenario, it is essential to implement secure authentication and use prepared statements to prevent SQL injection attacks.
 
-Remember Me: The "Remember Me" functionality is not implemented in the provided code. If you want to add this feature, you'll need to handle cookies or sessions to remember the user's login status.
-
-Styling: The provided CSS code is straightforward and uses a background image. You can modify the CSS to match your preferred design and layout.
-
-Handling Errors: Consider enhancing error handling and providing more informative messages to users when login attempts fail.
-
-Roles and Permissions: The code uses a userType field in the register table to determine user roles. You can extend this concept to implement different roles with specific permissions.
-
-Accessibility: Ensure that the login form is accessible to users with disabilities by providing appropriate labels, ARIA attributes, and focus indicators.
-
-Front-end Validation: The current code lacks front-end validation, so you may want to add JavaScript validation to ensure the username and password fields are not empty before submitting the form.
